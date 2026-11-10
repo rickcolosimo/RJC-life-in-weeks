@@ -1,8 +1,8 @@
 ---
 title       : My Life in Weeks
 description : This is a map of my life, where each week I’ve been alive is a little box.
-start_date  : 1975-09-19
-end_year    : 2075
+start_date  : 1968-01-02
+end_year    : 2068
 ---
 
 👋 Hi, I'm [Rick](https://rickcolosimo.com). This is a map of my life, where each week I've been alive is a little box. Tap a box to see what I was doing where that week.
