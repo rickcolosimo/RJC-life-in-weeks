@@ -115,7 +115,7 @@ a:hover {
     .birthday:focus-visible {
         z-index: 2;
         transform: translateY(-2px) scale(1.08);
-        box-shadow: 0 3px 9px rgb(63 92 114 / 24%);
+        box-shadow: 0 3px 9px rgba(63, 92, 114, 0.24);
         filter: saturate(1.12);
     }
 
