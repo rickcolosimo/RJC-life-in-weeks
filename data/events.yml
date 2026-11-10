@@ -20,30 +20,100 @@
       based: "Spencerport"
       doing: "First Grade"
 
-
-"1976-09-01":
+"1975-09-01":
     - headline: "Elementary school"
-      description: "Switched to Lakeshore Elementary in Greece, NY for second grade."
+      description: "Switched to Lakeshore Elementary in Greece, NY for second grade with Mrs. Royer. Met John Brueckner."
       based: "Greece"
       doing: "Student"
       association: "Lakeshore Elementary"
+
+"1976-09-01":
+    - headline: "Elementary school"
+      description: "Third grade with Mrs. Mandrill(?)."
+      based: "Greece"
+      doing: "Student"
+      association: "Lakeshore Elementary"
+
+"1977-09-01":
+    - headline: "Elementary school"
+      description: "Fourth grade was inaugural Greece School District mixed gifted class with 3rd/4th students. Teacher was Mrs. Tisa."
+      based: "Greece"
+      doing: "Student"
+      association: "Lakeshore Elementary"
+
+"1978-09-01":
+    - headline: "Elementary school"
+      description: "Fifth- and sixth-grade gifted classes moved to Paddy Hill Elementary, just down the road and up the hill from Lakeshore. Teacher was Ms. Goodwin. Did not like me much by the end of 6th grade."
+      based: "Greece"
+      doing: "Student"
+      association: "Paddy Hill Elementary"
+
+"1980-09-01":
+    - headline: "Junior High"
+      description: "Seventh grade was on the third floor of Athena High School. Introduction to Apple computers and typing in BASIC programs by hand with geometry teacher Leal C. Smith."
+      based: "Greece"
+      doing: "Student"
+      association: "Athena Jr. High"
+
+"1981-09-01":
+    - headline: "Junior High"
+      description: "The first half of eighth grade was on the third floor of Athena High School."
+      based: "Greece"
+      doing: "Student"
+      association: "Athena Jr. High"
+
+"1982-02-01":
+    - headline: "Junior High"
+      description: "Not sure when, but we moved to Holly Hill, Florida. The second half of eighth grade was at Holly Hill Jr. High, which was 7th, 8th, and 9th."
+      based: "Holly Hill"
+      doing: "Student"
+      association: "Holly Hill Jr. High"
+
+"1982-09-01":
+    - headline: "1st high school was junior high"
+      description: "Ninth grade was at Holly Hill Jr. High. Played basketball on the team, but needed glasses so couldn't shoot well!"
+      based: "Holly Hill"
+      doing: "Student"
+      association: "Holly Hill Jr. High"
+
+"1983-01-18":
+    - headline: "Lost my Grandpa"
+      description: "I spent a lot of time with them when I was younger. Now that I'm old, I'm glad my dad didn't resent the attention I got as a grandson that he didn't get as a son."
+
+"1983-09-01":
+    - headline: "2nd High School"
+      description: "Tenth grade: Mainland Sr. High School in Daytona Beach, Florida. It was across the streeet from Embry-Riddle and down the road from the racetrack."
+      based: "Daytona"
+      doing: "High school student"
+      association: "Mainland Sr. High School"
+
+"1984-03-01":
+    - headline: "First concert"
+      description: "Mike Love and Dean Torrance (from Jan and Dean) at the Daytona Beach bandshell. I skipped school. Could it have been (1982?)<https://www.setlist.fm/setlists/mike-love-and-dean-torrence-3bf61cd8.html>"
+
+"1984-01-01":
+    - headline: "3rd High School"
+      description: "Second half of 10th grade: Edison High School in Rochester, New York. My cousin went here. I had my first flying lessons as part of the school vocational program."
+      based: "Rochester"
+      doing: "High school student"
+      association: "Edison High School"
+
+"1984-09-01":
+    - headline: "4th High School"
+      description: "11th and 12th were like homecoming: back in Greece and many of my gradeschool friends. My locker was next to John Brueckner because someone transferred out."
+      based: "Greece"
+      doing: "High school student"
+      association: "Greece Arcadia High School"
+
+
+
+
 
 
 
 "1984-04-01":
     - headline: "First computer"
       description: "Dad loved gadgets and was ahead of his time when he bought us an IBM PCjr. Wrote my first BASIC programs on that machine, played the Keyboard Adventure easter egg game, Kings Quest and Space Quest, and drew a pixelated Van Halen logo with A."
-
-"1989-09-01":
-    - headline: "High school"
-      description: "All girls Catholic high schoool, where my sister went."
-      based: "Brooklyn"
-      doing: "High school student"
-      association: "BKHS"
-
-"1989-11-23":
-    - headline: "First concert"
-      description: "New Kids on the Block at Madison Square Garden. Whole school won tickets in an NYC radio contest by writing the most index cards of any other school in the 5 boroughs."
 
 "1991-10-01":
     - headline: "Visited Europe"
@@ -60,21 +130,16 @@
       association: "Marist"
       description: "Went to Marist College thanks to a scholarship, a loan, Mom & Dad, and Metro-North."
 
-"1993-09-15":
-    - headline: "Help desk"
-      description: "Started an on-campus job at Marist's computer lab help desk, where I worked all 4 years. The lab ran mainframe terminals, OS/2 and DOS workstations. Printers jammed constantly. Earned minimum wage, $4.25/hour, and learned so much."
 
-"1993-09-10":
-    - headline: "The X-Files"
-      description: "The X-Files pilot aired on this day. I didn't watch much TV in college so it probably took me a couple of seasons to get turned onto it, but once I did... The X-Files and in particular Dana Scully made a huge impression on young me, and began my life-long Gillian Anderson adoration."
 
-"1994-10-01":
-    - headline: "Saw my first webpage"
-      description: "Around this time, I saw a webpage for the first time. A coworker in the computer lab showed me the Mosaic browser running on OS/2. Lightbulb moment."
+"1997-08-13":
+    - headline: "Lost my Grandma"
+      description: "She made me a better person, even today."
 
-"1995-10-03":
-    - headline: "Lost Dad"
-      description: "Miss you every day."
+
+
+
+
 
 "1996-10-01":
     - headline: "Made my first webpages"
