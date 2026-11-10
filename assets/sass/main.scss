@@ -7,19 +7,19 @@
     --future-border: #dee2e6;
     --future-bg-color: #eee;
     --body-font-size-desktop: 16px;
-    --body-font-size-mobile: 14px;
+    --body-font-size-mobile: 12px;
     --header-font-size-desktop: 72px;
     --header-font-size-mobile: 36px;
 }
 
 @font-face {
     font-family: redhatdisplay-medium;
-    src: url(/fonts/RedHatDisplay-Medium.ttf);
+    src: url(../fonts/RedHatDisplay-Medium.ttf);
 }
 
 @font-face {
     font-family: redhatdisplay-xtrabold;
-    src: url(/fonts/RedHatDisplay-ExtraBold.ttf);
+    src: url(../fonts/RedHatDisplay-ExtraBold.ttf);
 }
 
 *,
@@ -55,16 +55,18 @@ body {
 h1 {
     font-family: redhatdisplay-xtrabold, serif;
     font-weight: 800;
-    font-size: clamp(var(--header-font-size-mobile), 6vw, var(--header-font-size-desktop));
-    line-height: 1.1;
+    font-size: var(--header-font-size-desktop);
     margin: 0;
     color: var(--header-text-color);
-    transition: font-size 0.25s;
+    @media only screen and (max-width: 768px) {
+        font-size: var(--header-font-size-mobile);
+    }
+    transition: all 0.25s;
 }
 
 h1.tiny {
     font-size: var(--header-font-size-mobile);
-    transition: font-size 0.25s;
+    transition: all 0.25s;
 }
 
 h1 a,
@@ -85,88 +87,44 @@ a:hover {
 }
 
 .life-in-weeks {
-    width: calc(100% - 3rem);
-    max-width: 1280px;
     border-radius: 5px;
-    margin: 0 auto 4rem;
-
+    margin: 0 20% 40% 20%;
     .future-date {
         background-color: var(--future-bg-color) !important;
         border-color: var(--future-border) !important;
     }
-
     .week,
     .birthday {
-        position: relative;
-        height: 2.25em;
-        min-height: 2.25em;
-        max-height: 2.25em;
-        padding: 0.3em 0.45em;
-        margin: 0.2em 0.12em;
-        border-radius: 3px;
-        line-height: 1.15;
-        transition: transform 140ms ease, box-shadow 140ms ease, filter 140ms ease;
-        cursor: pointer;
+        height: 2em;
+        max-height: 2em;
+        padding: 2px 5px;
+        margin: 2px 1px;
     }
-
-    .week:hover,
-    .birthday:hover,
-    .week:focus-visible,
-    .birthday:focus-visible {
-        z-index: 2;
-        transform: translateY(-2px) scale(1.08);
-        box-shadow: 0 3px 9px rgba(63, 92, 114, 0.24);
-        filter: saturate(1.12);
-    }
-
-    .week:focus-visible,
-    .birthday:focus-visible {
-        outline: 2px solid var(--highlight-color);
-        outline-offset: 1px;
-    }
-
     .btn {
         --bs-btn-color: var(--text-color);
         --bs-btn-font-size: var(--body-font-size-desktop);
     }
-
     blockquote {
-        margin-top: 2rem;
+        margin-top: 50px;
     }
-
     @media only screen and (max-width: 768px) {
-        width: calc(100% - 1.5rem);
-        margin-bottom: 2.5rem;
-
-        .week,
-        .birthday {
-            height: 2em;
-            min-height: 2em;
-            max-height: 2em;
-            padding: 0.25em 0.35em;
-            margin: 0.15em 0.08em;
-        }
-
+        margin: 0 2%;
         .btn {
             --bs-btn-font-size: var(--body-font-size-mobile);
         }
     }
-
     li {
         list-style-type: none;
     }
-
     li a {
         color: var(--link-color);
         text-decoration: none;
     }
-
     li a:hover {
         color: var(--highlight-color);
         text-decoration: none;
         border: none;
     }
-
     @keyframes fadeIn {
         from {
             opacity: 0;
@@ -177,14 +135,12 @@ a:hover {
             transform: translateY(0);
         }
     }
-
     .navbar {
         --bs-navbar-padding-y: 0;
         margin-bottom: 2em;
         display: none;
         opacity: 0;
         animation: fadeIn 0.5s ease-out forwards;
-
         .nav-pills {
             --bs-nav-pills-border-radius: 0;
             --bs-nav-pills-link-active-bg: var(--main-bg-color);
