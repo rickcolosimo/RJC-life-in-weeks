@@ -85,7 +85,8 @@ a:hover {
 }
 
 .life-in-weeks {
-    width: min(100% - 3rem, 1280px);
+    width: calc(100% - 3rem);
+    max-width: 1280px;
     border-radius: 5px;
     margin: 0 auto 4rem;
 
