@@ -18,6 +18,8 @@
 - class_name: "daytona"
   element: "border"
   color_name: "#469046"
+
+  
 - class_name: "rochester"
   element: "background-color"
   color_name: "white"
